@@ -1,0 +1,63 @@
+.sub {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  text-align: center;
+  position: relative;
+  bottom: -15px;
+  color: aqua;
+}
+
+.directory {
+  height: 50px;
+  margin: auto;
+  border: 3px solid;
+  background-color: rgb(53, 53, 53);
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(186, 25, 25);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.logo2 {
+  width: 40px;
+  top: 16.5px;
+  left: 15px;
+  position: absolute;
+}
+
+.aboutme {
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  background-color: black;
+  border: solid black 3px;
+  border-radius: 7px;
+}
+
+.github {
+  text-decoration: underline;
+}
+
+.github:hover {
+  text-decoration: underline;
+}

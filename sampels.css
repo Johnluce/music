@@ -1,0 +1,61 @@
+.sub {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  text-align: center;
+  position: relative;
+  bottom: -15px;
+  color: aqua;
+}
+
+.directory {
+  height: 50px;
+  margin: auto;
+  border: 3px solid;
+  background-color: rgb(53, 53, 53);
+  border-radius: 8px;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(186, 25, 25);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.video {
+  width: 30%;
+  border: solid 2px rgb(47, 189, 255);
+  margin: auto;
+}
+
+.videos {
+  display: flex;
+  background-color: black;
+}
+
+.words {
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  background-color: black;
+  height: 150px;
+  border: solid 2px black;
+  border-radius: 8px;
+}
+
+.logo2 {
+  width: 40px;
+  top: 16.5px;
+  left: 15px;
+  position: absolute;
+}

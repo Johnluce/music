@@ -15,11 +15,7 @@
   border-radius: 8px;
 }
 
-a:visited {
-  color: rgb(255, 255, 255);
-  background-color: transparent;
-  text-decoration: none;
-}
+
 
 a {
   text-decoration: none;
@@ -29,6 +25,18 @@ a:hover {
   color: rgb(186, 25, 25);
   background-color: transparent;
   text-decoration: underline;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 
@@ -58,4 +66,36 @@ a:hover {
   top: 16.5px;
   left: 15px;
   position: absolute;
+}
+
+.tunicvideo {
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+
+.word {
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  background-color: black;
+  height: 800px;
+  border: solid 3px black;
+  border-radius: 8px;
+}
+
+.sounds {
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  background-color: black;
+  height: 200px;
+  border: solid 3px black;
+  border-radius: 8px;
+}
+
+
+#twitch {
+  color: #9146FF;
+  text-decoration: underline;
 }

@@ -19,6 +19,12 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 a:visited {
   color: rgb(255, 255, 255);
   background-color: transparent;
@@ -53,4 +59,9 @@ video {
   top: 16.5px;
   left: 15px;
   position: absolute;
+}
+
+#soundcloud {
+  color: #ff5500;
+  text-decoration: underline;
 }

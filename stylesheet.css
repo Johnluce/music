@@ -51,7 +51,7 @@ a:hover {
   position: absolute;
 }
 
-.aboutme {
+.aboutme1 {
   color: azure;
   font-family: 'Courier New', Courier, monospace;
   font-size: 22px;
@@ -63,6 +63,20 @@ a:hover {
   position: relative;
   top: -30px;
   left: 10px;
+}
+
+.aboutme2 {
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  background-color: black;
+  border: solid black 3px;
+  border-radius: 7px;
+  width: 95%;
+  display: inline-block;
+  position: relative;
+  top: -370px;
+  left: 11px;
 }
 
 #github {
@@ -84,15 +98,71 @@ a:hover {
   background-color: black;
   border: solid black 3px;
   border-radius: 8px;
-  height: 600px;
+  height: 970px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 391px) {
+  .sub {
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    text-align: center;
+    position: relative;
+    bottom: -18px;
+    color: aqua;
+    font-size: 11px;
+    left: 25px;
+  }
 
-  .left,
-  .main,
-  .right {
-    width: 100%;
-    /* The width is 100%, when the viewport is 800px or smaller */
+  .logo2 {
+    width: 40px;
+    top: 16.5px;
+    left: 15px;
+    position: absolute;
+  }
+
+
+  .aboutme1 {
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    background-color: black;
+    border: solid black 3px;
+    border-radius: 7px;
+    width: 65%;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: 2px;
+  }
+
+  .aboutme2 {
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    background-color: black;
+    border: solid black 3px;
+    border-radius: 7px;
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    top: -240px;
+    left: 13px;
+  }
+
+  .about {
+    background-color: black;
+    border: solid black 3px;
+    border-radius: 8px;
+    height: 400px;
+  }
+
+  .argo {
+    width: 30%;
+    left: 3px;
+    border: solid black 4px;
+    border-radius: 8px;
+    position: relative;
+    top: -35px;
+
   }
 }

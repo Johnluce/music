@@ -140,3 +140,63 @@ body {
   left: 15px;
   position: absolute;
 }
+
+@media screen and (max-width: 391px) {
+  .sub {
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    text-align: center;
+    position: relative;
+    bottom: -18px;
+    color: aqua;
+    font-size: 11px;
+    left: 25px;
+  }
+
+  .logo2 {
+    width: 40px;
+    top: 16.5px;
+    left: 15px;
+    position: absolute;
+  }
+
+  .osc {
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    position: relative;
+    top: 80px;
+  }
+
+  .waves {
+    border: 3px solid;
+    background-color: black;
+    height: 1000px;
+    border: solid 3px black;
+    border-radius: 8px;
+  }
+
+  .waveimg {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    top: -480px;
+  }
+
+  .wavesadd {
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    position: relative;
+    top: -400px;
+    left: 3px;
+  }
+
+  .soundtitle {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+  }
+}

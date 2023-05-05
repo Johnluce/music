@@ -99,3 +99,53 @@ a:visited {
   color: #9146FF;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 391px) {
+  .sub {
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    text-align: center;
+    position: relative;
+    bottom: -18px;
+    color: aqua;
+    font-size: 11px;
+    left: 25px;
+  }
+
+  .logo2 {
+    width: 40px;
+    top: 16.5px;
+    left: 15px;
+    position: absolute;
+  }
+
+  .words {
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    background-color: black;
+    height: 400px;
+    border: solid 2px black;
+    border-radius: 8px;
+  }
+
+  .word {
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    background-color: black;
+    height: 450px;
+    border: solid 3px black;
+    border-radius: 8px;
+  }
+
+  .sounds {
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    background-color: black;
+    height: 670px;
+    border: solid 3px black;
+    border-radius: 8px;
+  }
+}
